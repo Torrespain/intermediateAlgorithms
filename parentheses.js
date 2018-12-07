@@ -3,11 +3,10 @@ let b="()"
 let c="{}"
 
 validMath = (start) => {
-  console.log(start)
+  console.log(start);
   
-  if(start.length === 0) {
-    console.log('true') 
-    return ("123")
+  if(start.length === 0) { 
+    return ("123");
   }
   
   else if(start.indexOf(a)>-1) {
@@ -25,11 +24,10 @@ validMath = (start) => {
   }
 
   else {
-    console.log("false")
-    return false
+    return false;
   }
 
 }
 
 
-validMath("[[]{}]")
+validMath("[[]{}]");
